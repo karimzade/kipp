@@ -1,4 +1,4 @@
-# Kipp: Chat with your File
+# Kipp: Chat with Documents
 
 Local streamlit app using Ollama.
 
@@ -18,7 +18,7 @@ Clone the project:
 git clone https://github.com/karimzade/kipp
 ```
 
-Install the poetry project in the project shell:
+Install the poetry dependencies:
 
 ```bash
 poetry install
