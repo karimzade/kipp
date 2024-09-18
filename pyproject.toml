@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "kipp"
+version = "0.1.0"
+description = "Chat with your file"
+authors = ["Mahammad Karimzade"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.2"
+streamlit = "^1.19.0"
+chromadb = "*"
+langchain-community = "*"
+langchain-huggingface = "*"
+langchain-ollama = "*"
+python-dotenv = "*"
+pypdf = "^5.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
